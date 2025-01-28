@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: bold;
+    text-align: left;
+    text-transform:capitalize;
+    text-shadow: #343a40;
+    padding-left: 80px;
+}
+
+h2{
+    color: brown;
+    font-weight: bold;
+    text-shadow: #343a40;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 8px rgba(68, 67, 67, 0.7);
+}
+
+h3{
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+font-size: larger;
+color: rgb(135, 13, 13);   
+}
+
+.decor{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;;
+font-weight:bold;
+}
+
+.image{
+height: 50px;
+padding-left: 0%;
+padding-right: 10px;
+
+}
+
+/* Hero Section */
+.hero {
+    background: url('./img/bg-main.jpg') no-repeat center center/cover;
+    height: 120vh;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* About Section */
+#about {
+    background:url('./img/about-1.jpg') no-repeat right;
+    height: 80vh;
+    background-color: rgb(244, 243, 236);
+}
+
+/* Menu Section */
+#menu{
+    background:url('./img/about-4.jpg') no-repeat left;
+    height:60vh;
+    background-color: bisque;
+   
+}
+
+ a:hover{
+    background-color: rgb(250, 244, 235);
+} 
+a li:hover{
+color: black;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+.tea{
+    text-align: center;
+    display:inline;
+}
+
+.center
+{
+        margin: 0 auto; 
+        text-align: center; 
+    }
+
+th,td{
+    text-align: center;
+    
+}
+td{
+    font-variant: small-caps;
+}
+
+.btt
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgb(123, 243, 31);
+    margin-left: 95%;
+    margin-bottom: 5px;
+}
+#list{
+background-color:  rgb(215, 215, 214);
+}
+
+.menu-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+#contact{
+    background-image: url('./img/bg.jpg');
+    background-position:right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:60vh;
+    background-color: bisque;
+   
+}
+.food{
+    font-weight: bold;
+    color: rgb(241, 27, 98);
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    margin: auto;
+    background-color: rgb(251, 251, 169);  
+}
+
+/* Footer */
+footer {
+    background: rgb(207, 252, 243);
+    color: #fa8787;
+}
